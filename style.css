@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  #game-container {
+    position: relative;
+    width: 300px;
+    height: 500px;
+    border: 2px solid #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #traffic-light {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin: 20px;
+  }
+  
+  .green {
+    background-color: green;
+  }
+  
+  .red {
+    background-color: red;
+  }
+  
+  #player-image {
+    width: 32px; 
+    position: absolute;
+    bottom: 10px;
+    left: 135px; 
+  }
+  
+  #start-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+  }
+  
+  #end {
+    width: 64px;
+    position: absolute;
+    top: 140px;
+    left: 115px;
+  }
